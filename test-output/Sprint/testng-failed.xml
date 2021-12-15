@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sprint]">
+  <parameter name="Browser" value="firefox"/>
+  <test thread-count="5" name="Sprint-Tests(failed)">
+    <classes>
+      <class name="com.livingtree.tests.LQ4201">
+        <methods>
+          <include name="test_LQ4201" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.livingtree.tests.LQ4201 -->
+      <class name="com.livingtree.tests.LQ5334">
+        <methods>
+          <include name="test_LQ5334" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.livingtree.tests.LQ5334 -->
+      <class name="com.livingtree.tests.LQ5174">
+        <methods>
+          <include name="test_LQ5174" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.livingtree.tests.LQ5174 -->
+      <class name="com.livingtree.tests.LQ5410">
+        <methods>
+          <include name="test_LQ5410" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.livingtree.tests.LQ5410 -->
+      <class name="com.livingtree.tests.LQ5347">
+        <methods>
+          <include name="test_LQ5347" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.livingtree.tests.LQ5347 -->
+    </classes>
+  </test> <!-- Sprint-Tests(failed) -->
+</suite> <!-- Failed suite [Sprint] -->
