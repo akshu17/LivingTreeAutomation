@@ -1,4 +1,5 @@
-
+*.idea
+*.recommenders
 *target*
 *.jar
 *.war
